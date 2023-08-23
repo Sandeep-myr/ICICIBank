@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #003366;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+
+}
+header img{
+    width: 120px;
+    height: 100px;
+    border-radius: 50%;
+    left: -120px;
+    position: relative;
+}
+
+.user-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.balance-box {
+    flex: 1;
+}
+
+.balance-box h3 {
+    margin: 5px 0;
+    
+}
+.balance-box span {
+    margin: 5px 0;
+    color: #fa08ad;
+}
+
+#logout-btn {
+    background-color: #003366;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+#logout-btn {
+   text-decoration:none;
+
+}
+#logout-btn:hover {
+    background-color: #e83415;
+}
+
+
+
+footer {
+    text-align: center;
+    background-color: #003366;
+    color: #ffffff;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+    top:auto;
+    left: 300px;
+    position: relative;
+}
+.operation-flex{
+    display: flex;
+    grid-template-rows: max-content;
+
+}
+.operations img{
+width:150px;
+height: 180px;
+
+}
+.operations{
+    border: 0px ;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 25px;
+    
+    position: relative ;
+    justify-content: center;
+    font-display:unset;
+    color:white;
+    border-radius: 20px;
+   
+    border-radius: 10px;
+    box-shadow: 30px 2px 4px rgba(1, 2, 2, 0.1);
+    padding: 10px;
+    
+
+}
+
+.operations a{
+    text-decoration: none;
+    color: white;
+color: rgb(349,8,78)
+
+
+
+}
+
+.operation-flex{
+
+    display: flexbox;
+    flex-wrap: nowrap;
+    gap: 30px;
+    left: 50px;
+    position: relative;
+    
+}
+
+
+  
+  
+  .flex-item:hover {
+    background-color: lightgreen;
+  }

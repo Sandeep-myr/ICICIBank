@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="BankHome.css">
+    <link rel="icon" href="https://companieslogo.com/img/orig/IBN-af38b5c0.png?t=1648383607" type="image/icon type">
+    <title>HOME PAGE</title>
+</head>
+<body>
+	<style>
+		* {
+    box-sizing: border-box;
+}
+.image-slideshow {
+	padding: 0% ;
+  max-width: 1000px;
+  position: relative;
+  margin: 20px;
+  top:-80px;
+}
+ .image-slideshow img {
+  width: 1300px;
+  height: 300px;
+}
+.fade {
+  animation-name: fade;
+  animation-duration: 2s;
+}
+@keyframes fade {
+  from {opacity: .5}
+  to {opacity: 1}
+}
+	</style>
+    <header class="header">
+        <div class="header-content">
+            <h1>Welcome to ICICI Bank</h1>
+        </div>
+        <div class="header-image">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/ICICI_Bank_Logo.svg/2560px-ICICI_Bank_Logo.svg.png"  alt="ICICI Bank Logo">
+        </div>
+    </header>
+    <div class="container">
+        <div class="flex-container">
+            <div class="flex-item">
+                <h2>Account Opening</h2>
+                <p>Open a new account with us and start managing your finances.</p>
+                <a href="AccountOpen.html" class="button">Open Account</a>
+            </div>
+            <div class="flex-item">
+                <h2>Login</h2>
+                <p>Existing customers can log in to access their accounts.</p>
+                <a href="Login.html" class="button">Login</a>
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="" >
+        </div>
+    </div>
+ <div class="image-slideshow">
+      <div class="image fade">
+        <img src="https://www.icicibank.com/content/dam/icicibank/india/managed-assets/images/offer-zone/ease-my-trip-offer.webp" >
+      </div>        
+      <div class="image fade">
+        <img src="https://www.icicibank.com/content/dam/icicibank/optimized-webp-images/india/managed-assets/insta-banking/images/infinite.webp" >
+      </div>        
+      <div class="image fade">
+        <img src="https://www.icicibank.com/content/dam/icicibank/india/managed-assets/images/offer-zone/credit-debit-card/tcl-banner.webp">
+      </div>
+      <div class="image fade">
+        <img src="https://d2xamzlzrdbdbn.cloudfront.net/BlogImages/072a2ddf-d4de-4364-8786-79b886de292f.jpg" >
+      </div>
+    
+    
+    <div class="Foot">
+    <footer>
+        <p>Contact us:</p>
+            <p>&#x2709; Gmail:  Sansahu921@gmail.com</p>
+        <p> 	&#128222;Phone : 7000517223</p>
+        <a href="https://www.instagram.com/sandeep_myr" target="_blank">Instagram</a>
+          <a href="https://www.facebook.com/your_facebook" target="_blank">Facebook</a>
+          <a href="https://twitter.com/your_twitter" target="_blank">Twitter</a>
+          <a href="https://www.yourwebsite.com" target="_blank">Website</a><br>
+          &copy; 2023 ICICI Bank. All rights reserved.
+    </footer>
+    </div>
+        
+          <script src="BankHome.js" ></script>
+    
+  <script>
+    // Disable the back button
+    history.pushState(null, null, location.href);
+    window.onpopstate = function () {
+        history.go(1);
+    };
+    history.pushState(null, null, location.href);
+window.onpopstate = function(event) {
+    history.go(1);
+};
+</script>
+</body>
+</html>
+
+</body>
+</html>

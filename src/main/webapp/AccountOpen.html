@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Account Opening Form</title>
+<link rel="stylesheet" href="AccountOpen.css">
+<link rel="icon" href="https://companieslogo.com/img/orig/IBN-af38b5c0.png?t=1648383607" type="image/icon type">
+</head>
+<body>
+  <div id="image1">
+<img src="https://www.seekpng.com/png/detail/52-521919_mentorship-20-office-girl-images-png.png" alt="">
+</div>
+<div class="container">
+  <h2 style="text-align: center; color: white; background-color: orange; padding: 10px; border-radius: 10px 10px 0 0;">Account Opening Form</h2>
+  <form action="OpenAccount" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+      <label for="fullname">Full Name</label>
+      <input type="text" id="fullname" name="fullname" required>
+    </div>
+    <div class="form-group">
+      <label for="fathername">Father's Name</label>
+      <input type="text" id="fathername" name="fathername" required>
+    </div>
+    <div class="form-group">
+      <label for="dob">Date of Birth</label>
+      <input type="date" id="dob" name="dob" required>
+    </div>
+    <div class="form-group">
+      <label for="mobileNumber">Mobile Number</label>
+      <input type="tel" id="mobileNumber" name="mobileNumber" maxlength="10"  required>
+    </div>
+    <div class="form-group">
+      <label for="email">Email - Id</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+    <div class="form-group">
+      <label for="username">Username</label>
+      <input type="text" id="username" name="username" required>
+    </div>
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" required>
+    </div>
+    <div class="form-group">
+      <label for="photo">Upload Photo (Max 500KB)</label>
+      <input type="file" id="photo" name="photo" accept="image/*" required>
+    </div>
+    <div class="form-group" style="margin-top: 10px;">
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+    </div>
+  </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,125 @@
+/* Reset some default styles for consistency */
+body, h1, h2, form {
+  margin: 0;
+  padding: 0;
+}
+
+.side {
+  width: fit-content;
+  height: fit-content;
+  margin: 0;
+  padding: 12px;
+}
+
+.side label, .slide2 label {
+  font-size: 20px;
+  color: #0056b3;
+  font-weight: bold;
+}
+
+.side input[type="text"],
+input[type="tel"],
+#transaction-type {
+  width: 300px;
+  height: 32px;
+  font-size: 20px;
+  font-weight: 90;
+  background-color:  transparent;
+  border: 2px ;
+  border-style: groove;
+}
+
+.slide2 {
+  width: fit-content;
+  height: fit-content;
+  padding: 15px;
+  
+}
+
+.row {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  border-radius: 20px;
+   
+    border-radius: 10px;
+    box-shadow: 30px 2px 4px rgba(1, 2, 2, 0.1);
+  top: 120px;
+  left: 300px;
+  position: absolute;
+  margin: 12px;
+  padding: 12px;
+  background-color: #fff/* Add the background color here */
+}
+
+.slide2 input[type="text"] {
+  width: 300px;
+  height: 32px;
+  font-size: 20px;
+  font-weight: 90;
+  background-color:  transparent;
+  border: 2px ;
+  border-style: groove;
+}
+
+.slide2 input[type="number"] {
+  width: 300px;
+  height: 32px;
+  font-size: 22px;
+  background-color:  transparent;
+  border: 2px ;
+  border-style: groove;
+}
+
+.field {
+  margin-bottom: 15px;
+}
+
+input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 200px;
+  height: 50px;
+}
+
+input[type="submit"]:hover {
+  background-color: #0cb300;
+}
+
+header {
+  background-color: #0056b3;
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.container h2 {
+  background-color: orange;
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  padding: 12px;
+}
+
+footer {
+  font-size: 19px;
+  font-weight: 300px;
+  text-align: center;
+  color: #fff;
+  border: 3px;
+  padding: 4px;
+  width: auto;
+  height: auto;
+  background-color: #0056b3;
+  left: auto;
+  top: 445px;
+  position: relative;
+}
+
+

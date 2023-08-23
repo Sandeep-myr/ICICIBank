@@ -1,0 +1,117 @@
+@charset "UTF-8";
+.layer1{
+    width: 500px;
+    height: 500px;
+    border: 2px groove ;
+   border-radius: 20px;
+   text-align: left;
+   position: relative;
+   left:700px;
+   top:30px;
+   background-color: rgb(236, 236, 255);
+}
+
+.layer12{
+    width:280px;
+    height:auto;
+    left:220px;
+ 
+position: inherit;
+top: -300px;
+padding:0px;
+}
+.layer2{
+    width:180px;
+position: inherit;
+    height:auto;
+left: 30px;
+
+text-align:end;
+
+
+}
+ 
+input[type="text"]{
+
+border: none;
+border-bottom-style: groove;
+width: 200px;
+height: 30px;
+font-size: 25px;
+font-family: 'Times New Roman', Times, serif;
+background: transparent;
+
+    
+    
+   
+  
+
+}
+input[type="password"]{
+
+    border: none;
+    border-bottom-style: groove;
+    border-spacing: 0cap;
+    width: 200px;
+height: 30px;
+font-size: 25px;
+font-family: 'Times New Roman', Times, serif;
+background: transparent;
+    
+    }
+    input[type="submit"]{
+
+        width:100px;
+        height: 35px;
+        background-color: rgb(149, 229, 29);
+        font-size: 20px;
+        color: rgb(252, 246, 246);
+        border: 3px ridge  rgb(173, 245, 91);
+        border-radius: 10px;
+        } 
+        input[type="reset"]{
+
+            width:100px;
+            height: 35px;
+            background-color: rgb(242, 85, 85);
+            font-size: 20px;
+            color: rgb(250, 248, 248);
+            border: 3px ridge  red;
+            border-radius: 10px;
+            } 
+        label{
+            font-size: 20px;
+            color: rgb(253, 7, 7);
+
+        }
+
+        input[type="radio"]{
+           width: 25px;
+           background: transparent;
+        }
+        h1{
+            text-align: center;
+            border: none;
+        
+            width: 500px;
+            color: orange;
+            
+        }
+        .image1{
+            left:30px;
+            top:30px;
+            position: absolute;
+        }
+        body{
+            backface-visibility: visible;
+            backdrop-filter: initial;
+            background-color: rgb(220, 240, 244);
+        }
+
+        input:required:valid{
+            background-color: rgb(167, 236, 250);
+            
+        }
+        input:title{
+            background-color: greenyellow;
+        }

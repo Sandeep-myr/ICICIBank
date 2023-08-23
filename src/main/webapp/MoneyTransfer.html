@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Transfer</title>
+    <link rel="stylesheet" href="DMT.Css">
+    <link rel="icon" href="https://companieslogo.com/img/orig/IBN-af38b5c0.png?t=1648383607" type="image/icon type">
+</head>
+<body>
+    <form action="CustomerMoneyTransfer" method="post">
+    <div class="layer1">
+        <h1>Domestic Money Transfer </h1><br>
+    <div class="layer2">
+         <label for="">Benificiry Account Number </label><br><br>
+         <label for="">Benififciry Name</label><br><br>
+         <label for="">Re Enter Account Number</label><br><br>
+         <label for=""> Payment Mode</label><br><br>
+         <label for="">Ammount</label><br><br>
+         <label for="">Reference </label><br><br>
+
+
+     </div>    
+     <div class="layer12">
+     <input type="text" name="accountNumber" id="" maxlength=12 required oninvalid="this.setCustomValidity('Please enter Account-Number')" oninput="this.setCustomValidity('')" title="Enter Bank Account-Number"><br><br>
+     <input type="text" name="accountHolderName" id="" m axlength=16 required title="Enter accountholdername"><br><br>
+     <input type="password" id="pwd" name="reaccount" required title="Re Enter Account-Number"><br><br> 
+     <label for="">
+     <input type="radio" name="option" value="IMPS" required> IMPS
+    </label>
+    <label for="">
+        <input type="radio" name="option" value="NEFT" required> NEFT
+       </label>
+       <label for="">
+        <input type="radio" name="option" required value="RTGS">RTGS
+       </label><br><br>
+       <input type="text" name="ammount" maxlength=10 required title="Enter Ammount"> &#8377<br><br> 
+       <input type="text" name="reference"  maxlength="100" required title="Enter Reference"><br><br>
+
+       <input type="submit" value="Submit">
+       <input type="reset" value="Reset">
+     </div>
+     
+   
+    </div>
+    <div class="image1">
+        <img src="https://www.icicibank.com/content/dam/managed-assets/images/instabiz/Placeholder-one.png" alt="">
+    </div>
+</form>
+</body>
+</html>
